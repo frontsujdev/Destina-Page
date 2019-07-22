@@ -1,0 +1,85 @@
+/* --------------------------------------------------
+	Responsive Styles - Media queries
+-------------------------------------------------- */
+/* --------------------------------------------------
+	0.1 Settigns
+-------------------------------------------------- */
+/* ---- Colors ---- */
+/* ---- Label Colors ---- */
+/* ---- Text ---- */
+/* ---- White Space ---- */
+/* ---- Buttons ---- */
+/* ---- Forms ---- */
+/* ---- Navigation ---- */
+/* ---- Footer ---- */
+/* ---- Other ---- */
+/* ---- Media Queries Breakpoints ---- */
+/* ---- General ---- */
+
+/* ---- Navigation ---- */
+@media (max-width: 1260px) {
+  .navbar .navbar-header {
+    width: auto;
+    margin-left: 0;
+  }
+  .navbar .navbar-header .navbar-brand {
+    margin-left: 25px;
+  }
+  .navbar .navbar-header .navbar-toggle {
+    border: none;
+  }
+  .navbar .navbar-header .navbar-toggle:focus {
+    background: none;
+  }
+  .navbar .navbar-header .navbar-toggle:hover {
+    background: none;
+  }
+  .navbar .navbar-header .navbar-toggle:hover span {
+    background: #111;
+  }
+  .navbar .navbar-header .navbar-toggle span {
+    background: #999;
+    -webkit-transition: background 0.3s;
+            transition: background 0.3s;
+  }
+  .navbar .navbar-collapse {
+    margin-top: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    max-height: 100%;
+    border: none;
+    box-shadow: none;
+  }
+  .navbar .navbar-collapse .navbar-nav {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .navbar .navbar-collapse .navbar-nav .dropdown .dropdown-menu {
+    padding-top: 10px;
+    height: 100%;
+    border: none;
+  }
+  .navbar .navbar-collapse .navbar-nav .dropdown .dropdown-menu .dropdown-banner {
+    display: none;
+  }
+  .navbar .navbar-collapse .navbar-nav .cart-nav .dropdown-toggle {
+    margin-left: -16px;
+  }
+  .navbar .navbar-collapse .navbar-nav .cart-nav .cart-dropdown {
+    min-width: 100%;
+  }
+  .navbar .navbar-right {
+    margin-right: 0;
+  }
+  nav:not(.navbar-small) .navbar-header .navbar-toggle {
+    margin-top: 15px;
+  }
+  .navbar-inverse .navbar-header .navbar-toggle:hover span {
+    background: #ececec;
+  }
+  .navbar-inverse .navbar-header .navbar-toggle span {
+    background: #999;
+    -webkit-transition: background 0.3s;
+            transition: background 0.3s;
+  }
+}

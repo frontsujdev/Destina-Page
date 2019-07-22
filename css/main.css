@@ -1,0 +1,1017 @@
+
+.clear {
+  clear: both;
+}
+
+/* ---- Backgrounds ---- */
+.dark-bg {
+  background: #111;
+}
+
+/* ---- DEMO ONLY: Side Buttons - Qick Links ---- */
+.quick-link-btns .quick-btn {
+  display: block;
+  position: fixed;
+  padding: 12px 15px;
+  top: 100px;
+  right: -108px;
+  color: #ececec;
+  background: #111;
+  font-size: 11px;
+  letter-spacing: 1.8px;
+  font-family: "Montserrat", "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
+  text-transform: uppercase;
+  opacity: .5;
+  z-index: 800;
+  -webkit-transition: all 0.45s;
+          transition: all 0.45s;
+}
+
+.quick-link-btns .quick-btn:hover {
+  right: 0;
+  opacity: 1;
+}
+
+.quick-link-btns .quick-btn:hover span {
+  right: 0;
+}
+
+.quick-link-btns .quick-btn i {
+  padding-left: 5px;
+  padding-right: 15px;
+  font-size: 18px;
+  vertical-align: middle;
+  border-right: 1px solid #ececec;
+}
+
+.quick-link-btns .quick-btn span {
+  display: inline-block;
+  position: relative;
+  padding-left: 11px;
+  right: -35px;
+  -webkit-transition: right 0.7s;
+          transition: right 0.7s;
+}
+
+.quick-link-btns .buy-btn {
+  right: -102px;
+}
+
+.quick-link-btns .feedback-btn {
+  margin-top: 50px;
+}
+
+/* --------------------------------------------------
+	1.0 Typography
+-------------------------------------------------- */
+mark {
+  background: #cafe48;
+}
+
+::-moz-selection {
+  color: #fff;
+  background: #17DA5B;
+}
+
+::selection {
+  color: #fff;
+  background: #17DA5B;
+}
+
+/* ---- 1.1 Text ---- */
+body, .testimonials-3col .t-item blockquote, .testimonials-3col .t-item .wrapper-404 .content-wrapper .info-wrapper .info-404, .wrapper-404 .content-wrapper .info-wrapper .testimonials-3col .t-item .info-404, .testimonials-3col .t-item .bg-maintenance .content-wrapper .content-inner p, .bg-maintenance .content-wrapper .content-inner .testimonials-3col .t-item p {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 0.2px;
+  line-height: 1.8em;
+  color: #777;
+}
+
+
+.dropcaps:first-child:first-letter {
+  padding: 6px 13px;
+  margin-right: 3px;
+  background: #ececec;
+  color: #111;
+  font-weight: 700;
+  font-size: 23px;
+}
+
+/* ---- 1.2 Headings ---- */
+h1, .comingsoon .content-wrapper .content-inner .cs-timer .item .nbr-timer {
+  font-size: 1.7em;
+  letter-spacing: 5px;
+}
+
+h2 {
+  font-size: 1.5em;
+  letter-spacing: 4px;
+}
+
+h3, .page-title .subheading {
+  font-size: 1.3em;
+  letter-spacing: 3.5px;
+}
+
+h4, .ft-tabs .tabs-list li a .tab-group .tab-heading, .testimonials-3col .t-item blockquote footer cite, .testimonials-3col .t-item .wrapper-404 .content-wrapper .info-wrapper .info-404 footer cite, .wrapper-404 .content-wrapper .info-wrapper .testimonials-3col .t-item .info-404 footer cite, .testimonials-3col .t-item .bg-maintenance .content-wrapper .content-inner p footer cite, .bg-maintenance .content-wrapper .content-inner .testimonials-3col .t-item p footer cite, .team-3col .t-item .t-info .t-role, .team-4col .t-item .t-info .t-role, .freelancer-about .t-item .t-info .t-role, .t-join .t-info .t-role, .login-2 .bg-overlay .form-wrapper .form-content .cards-header, .login-2 .bg-overlay .form-wrapper .social-signup .social-card .sc-lead {
+  font-size: 1.07em;
+  letter-spacing: 3px;
+}
+
+h5, .ft-boxed-hover ul li .hover-content .ft-heading, .ft-tabs .tabs-list li a .tab-group .tab-info, .sidebar .comments-widget .widget-item span .widget-comm-title, .comingsoon .content-wrapper .content-inner .cs-timer .item .title-timer, .shop-layout-options span {
+  font-size: 1em;
+  letter-spacing: 2px;
+}
+
+h6, .progress-group .progress-title,
+.progress-group .progress-value, .accordions-1 .panel .panel-heading .panel-title, .footer-social-links ul li, .footer-contact .contact-info .show-info-link, .footer-contact .contact-info address ul li .adr-heading, .footer-contact .contact-info address .show-map, .footer-litle address ul li .adr-group .adr-heading, .ft-cards .ft-item a, .ft-cards-2 .ft-card-item .ft-content .link-btn, .ft-boxed-hover ul li .hover-content a, .circles-counters .circle-item .circle-text, .circles-counters-dark-bg .circle-item .circle-text, .number-counters .count-wrapper .count-item .count-text, .number-counters-dark-bg .count-wrapper .count-item .count-text, .project-nav nav .nav-btns li a, .pricing-tables .p-table .desc, .blog-post-nav .prev-btn,
+.blog-post-nav .next-btn, .sidebar .tags-widget .tag-list li a, .contact-1 .contact-wrapper .contact-info-wrapper address .address-group span, .contact-1 .contact-wrapper .contact-info-wrapper address .address-group a,
+.contact-1 .contact-wrapper .contact-info-wrapper address .address-group p, .contact-1 .contact-wrapper .contact-info-wrapper address .show-map-link a, .landing-hero .heading-wrapper .cta-btn, .shop-sidebar .filter-widget label, .shop-sidebar-vertical .filter-widget label, .shop-sidebar .tags-widget .tag-list li a, .shop-sidebar-vertical .tags-widget .tag-list li a, .checkout-table tbody tr td:first-child, .prod-reviews .tp-review .tpr-name {
+  font-size: 0.85em;
+  letter-spacing: 2px;
+}
+
+.h-alt {
+  font-family: "Open Sans", "Montserrat", "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: 300;
+}
+
+/* ---- 1.3 Links ---- */
+a {
+  -webkit-transition: all 0.5s;
+          transition: all 0.5s;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+p > a {
+  border-bottom: 1px solid rgba(44, 170, 223, 0);
+}
+
+p > a:visited {
+  color: #1c8cbc;
+  text-decoration: none;
+}
+
+p > a:visited:hover,
+p > a:visited:focus {
+  color: #2caadf;
+  text-decoration: none;
+}
+
+p > a:hover,
+p > a:focus {
+  color: #1c8cbc;
+  text-decoration: none;
+  border-bottom: 1px solid #2caadf;
+}
+
+/* ---- 1.4 Blockquotes ---- */
+blockquote, .wrapper-404 .content-wrapper .info-wrapper .info-404, .bg-maintenance .content-wrapper .content-inner p {
+  border: none;
+  padding: 0;
+  font-size: 1.3em;
+  letter-spacing: .5px;
+}
+
+blockquote footer, .wrapper-404 .content-wrapper .info-wrapper .info-404 footer, .bg-maintenance .content-wrapper .content-inner p footer {
+  padding-top: 25px;
+}
+
+blockquote footer:before, .wrapper-404 .content-wrapper .info-wrapper .info-404 footer:before, .bg-maintenance .content-wrapper .content-inner p footer:before {
+  content: '-';
+}
+
+blockquote footer cite, .wrapper-404 .content-wrapper .info-wrapper .info-404 footer cite, .bg-maintenance .content-wrapper .content-inner p footer cite {
+  text-transform: uppercase;
+  color: #999;
+  font-style: normal;
+  font-size: .85em;
+  letter-spacing: 2px;
+}
+
+.alt-blockquote {
+  padding: 50px;
+  background: #f4f4f4;
+}
+
+/* ---- 1.5 Lists ---- */
+.flat-list {
+  list-style: none;
+}
+
+.flat-list li {
+  margin-bottom: 10px;
+}
+
+.flat-list li i:before {
+  padding-right: 15px;
+}
+
+/* ---- 1.6 PAGE - Typography ---- */
+.headings-example ul {
+  list-style: none;
+}
+
+.headings-example ul li {
+  padding-bottom: 30px;
+}
+
+.headings-example ul li:last-child {
+  padding-bottom: 0;
+}
+
+.headings-example ul li h1,
+.headings-example ul li .comingsoon .content-wrapper .content-inner .cs-timer .item .nbr-timer,
+.comingsoon .content-wrapper .content-inner .cs-timer .item .headings-example ul li .nbr-timer, .headings-example ul li h2,
+.headings-example ul li h3,
+.headings-example ul li .page-title .subheading,
+.page-title .headings-example ul li .subheading, .headings-example ul li h4,
+.headings-example ul .ft-tabs .tabs-list li a .tab-group .tab-heading,
+.ft-tabs .tabs-list .headings-example ul li a .tab-group .tab-heading, .headings-example ul li .testimonials-3col .t-item blockquote footer cite,
+.testimonials-3col .t-item blockquote footer .headings-example ul li cite, .headings-example ul li .testimonials-3col .t-item .wrapper-404 .content-wrapper .info-wrapper .info-404 footer cite,
+.testimonials-3col .t-item .wrapper-404 .content-wrapper .info-wrapper .info-404 footer .headings-example ul li cite, .headings-example ul li .wrapper-404 .content-wrapper .info-wrapper .testimonials-3col .t-item .info-404 footer cite,
+.wrapper-404 .content-wrapper .info-wrapper .testimonials-3col .t-item .info-404 footer .headings-example ul li cite, .headings-example ul li .testimonials-3col .t-item .bg-maintenance .content-wrapper .content-inner p footer cite,
+.testimonials-3col .t-item .bg-maintenance .content-wrapper .content-inner p footer .headings-example ul li cite, .headings-example ul li .bg-maintenance .content-wrapper .content-inner .testimonials-3col .t-item p footer cite,
+.bg-maintenance .content-wrapper .content-inner .testimonials-3col .t-item p footer .headings-example ul li cite, .headings-example ul li .team-3col .t-item .t-info .t-role,
+.team-3col .t-item .t-info .headings-example ul li .t-role, .headings-example ul li .team-4col .t-item .t-info .t-role,
+.team-4col .t-item .t-info .headings-example ul li .t-role, .headings-example ul li .freelancer-about .t-item .t-info .t-role,
+.freelancer-about .t-item .t-info .headings-example ul li .t-role, .headings-example ul li .t-join .t-info .t-role,
+.t-join .t-info .headings-example ul li .t-role, .headings-example ul li .login-2 .bg-overlay .form-wrapper .form-content .cards-header,
+.login-2 .bg-overlay .form-wrapper .form-content .headings-example ul li .cards-header, .headings-example ul li .login-2 .bg-overlay .form-wrapper .social-signup .social-card .sc-lead,
+.login-2 .bg-overlay .form-wrapper .social-signup .social-card .headings-example ul li .sc-lead, .headings-example ul li h5,
+.headings-example .ft-boxed-hover ul li .hover-content .ft-heading,
+.ft-boxed-hover .headings-example ul li .hover-content .ft-heading, .headings-example ul .ft-tabs .tabs-list li a .tab-group .tab-info,
+.ft-tabs .tabs-list .headings-example ul li a .tab-group .tab-info, .headings-example ul li .sidebar .comments-widget .widget-item span .widget-comm-title,
+.sidebar .comments-widget .widget-item span .headings-example ul li .widget-comm-title, .headings-example ul li .comingsoon .content-wrapper .content-inner .cs-timer .item .title-timer,
+.comingsoon .content-wrapper .content-inner .cs-timer .item .headings-example ul li .title-timer, .headings-example ul li .shop-layout-options span,
+.shop-layout-options .headings-example ul li span, .headings-example ul li h6, .headings-example ul li .progress-group .progress-title, .progress-group .headings-example ul li .progress-title,
+.headings-example ul li .progress-group .progress-value, .progress-group .headings-example ul li .progress-value, .headings-example ul li .accordions-1 .panel .panel-heading .panel-title, .accordions-1 .panel .panel-heading .headings-example ul li .panel-title, .headings-example .footer-social-links ul li li, .footer-social-links .headings-example ul li li, .headings-example ul li .footer-contact .contact-info .show-info-link, .footer-contact .contact-info .headings-example ul li .show-info-link, .headings-example .footer-contact .contact-info address ul li .adr-heading, .footer-contact .contact-info address .headings-example ul li .adr-heading, .headings-example ul li .footer-contact .contact-info address .show-map, .footer-contact .contact-info address .headings-example ul li .show-map, .headings-example .footer-litle address ul li .adr-group .adr-heading, .footer-litle address .headings-example ul li .adr-group .adr-heading, .headings-example ul li .ft-cards .ft-item a, .ft-cards .ft-item .headings-example ul li a, .headings-example ul li .ft-cards-2 .ft-card-item .ft-content .link-btn, .ft-cards-2 .ft-card-item .ft-content .headings-example ul li .link-btn, .headings-example .ft-boxed-hover ul li .hover-content a, .ft-boxed-hover .headings-example ul li .hover-content a, .headings-example ul li .circles-counters .circle-item .circle-text, .circles-counters .circle-item .headings-example ul li .circle-text, .headings-example ul li .circles-counters-dark-bg .circle-item .circle-text, .circles-counters-dark-bg .circle-item .headings-example ul li .circle-text, .headings-example ul li .number-counters .count-wrapper .count-item .count-text, .number-counters .count-wrapper .count-item .headings-example ul li .count-text, .headings-example ul li .number-counters-dark-bg .count-wrapper .count-item .count-text, .number-counters-dark-bg .count-wrapper .count-item .headings-example ul li .count-text, .headings-example ul .project-nav nav .nav-btns li a, .project-nav nav .nav-btns .headings-example ul li a, .headings-example ul li .pricing-tables .p-table .desc, .pricing-tables .p-table .headings-example ul li .desc, .headings-example ul li .blog-post-nav .prev-btn, .blog-post-nav .headings-example ul li .prev-btn,
+.headings-example ul li .blog-post-nav .next-btn, .blog-post-nav .headings-example ul li .next-btn, .headings-example ul .sidebar .tags-widget .tag-list li a, .sidebar .tags-widget .tag-list .headings-example ul li a, .headings-example ul li .contact-1 .contact-wrapper .contact-info-wrapper address .address-group span, .contact-1 .contact-wrapper .contact-info-wrapper address .address-group .headings-example ul li span, .headings-example ul li .contact-1 .contact-wrapper .contact-info-wrapper address .address-group a, .contact-1 .contact-wrapper .contact-info-wrapper address .address-group .headings-example ul li a,
+.headings-example ul li .contact-1 .contact-wrapper .contact-info-wrapper address .address-group p, .contact-1 .contact-wrapper .contact-info-wrapper address .address-group .headings-example ul li p, .headings-example ul li .contact-1 .contact-wrapper .contact-info-wrapper address .show-map-link a, .contact-1 .contact-wrapper .contact-info-wrapper address .show-map-link .headings-example ul li a, .headings-example ul li .landing-hero .heading-wrapper .cta-btn, .landing-hero .heading-wrapper .headings-example ul li .cta-btn, .headings-example ul li .shop-sidebar .filter-widget label, .shop-sidebar .filter-widget .headings-example ul li label, .headings-example ul li .shop-sidebar-vertical .filter-widget label, .shop-sidebar-vertical .filter-widget .headings-example ul li label, .headings-example ul .shop-sidebar .tags-widget .tag-list li a, .shop-sidebar .tags-widget .tag-list .headings-example ul li a, .headings-example ul .shop-sidebar-vertical .tags-widget .tag-list li a, .shop-sidebar-vertical .tags-widget .tag-list .headings-example ul li a, .headings-example ul li .checkout-table tbody tr td:first-child, .checkout-table tbody tr .headings-example ul li td:first-child, .headings-example ul li .prod-reviews .tp-review .tpr-name, .prod-reviews .tp-review .headings-example ul li .tpr-name {
+  margin: 0;
+}
+
+/* --------------------------------------------------
+	2.0 Buttons
+-------------------------------------------------- */
+/* ---- 2.1 Defualt Buttons ---- */
+.btn, .btn-ghost, .btn-ghost-light, .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-ghost-light, .btn-text, .btn-text-light, .btn-light, .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-ghost, .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-light {
+  position: relative;
+  display: inline-block;
+  padding: 8px 38px;
+  background: #111;
+  color: #ececec;
+  font-family: "Montserrat", "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-size: 0.9em;
+  line-height: 1.8em;
+  border-radius: 0;
+  -webkit-transition: all 0.5s;
+          transition: all 0.5s;
+}
+
+.btn:visited, .btn-ghost:visited, .btn-ghost-light:visited, .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-ghost-light:visited, .btn-text:visited, .btn-text-light:visited, .btn-light:visited, .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-ghost:visited, .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-light:visited {
+  color: #ececec;
+  background: #111;
+}
+
+.btn:visited:hover, .btn-ghost:visited:hover, .btn-ghost-light:visited:hover, .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-ghost-light:visited:hover, .btn-text:visited:hover, .btn-text-light:visited:hover, .btn-light:visited:hover, .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-ghost:visited:hover, .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-light:visited:hover {
+  color: #ececec;
+  background: #3f3f3f;
+}
+
+.btn:hover, .btn-ghost:hover, .btn-ghost-light:hover, .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-ghost-light:hover, .btn-text:hover, .btn-text-light:hover, .btn-light:hover, .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-ghost:hover, .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-light:hover {
+  color: #ececec;
+  background: #3f3f3f;
+}
+
+.btn:focus, .btn-ghost:focus, .btn-ghost-light:focus, .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-ghost-light:focus, .btn-text:focus, .btn-text-light:focus, .btn-light:focus, .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-ghost:focus, .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-light:focus {
+  color: #ececec;
+  outline: none;
+}
+
+/* ---- 2.2 Ghost Buttons ---- */
+.btn-ghost, .btn-ghost-light, .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-ghost-light {
+  background: none;
+  color: #111;
+  border: 2px solid #111;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.btn-ghost:after, .btn-ghost-light:after, .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-ghost-light:after {
+  content: '';
+  position: absolute;
+  background: #111;
+  left: 0;
+  top: 100%;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: top 0.3s;
+          transition: top 0.3s;
+  z-index: -1;
+}
+
+.btn-ghost:visited,
+.btn-ghost-light:visited,
+.navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-ghost-light:visited,
+.btn-ghost:focus, .btn-ghost-light:focus, .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-ghost-light:focus {
+  color: #111;
+  text-decoration: none;
+}
+
+.btn-ghost:hover, .btn-ghost-light:hover, .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-ghost-light:hover {
+  color: #ececec;
+  background: none;
+}
+
+.btn-ghost:hover:visited, .btn-ghost-light:hover:visited, .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-ghost-light:hover:visited {
+  color: #ececec;
+  text-decoration: none;
+}
+
+.btn-ghost:hover:after, .btn-ghost-light:hover:after, .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-ghost-light:hover:after {
+  top: 0;
+}
+
+input[class="btn-ghost"]:hover {
+  color: #ececec;
+  background: #111;
+}
+
+input[class="btn-ghost"]:after {
+  content: none;
+}
+
+/* ---- 2.3 Buttons Rounded ---- */
+.btn-round {
+  border-radius: 25px;
+}
+
+/* ---- 2.4 Text Buttons ---- */
+.btn-text, .btn-text-light {
+  background: none;
+  border: 2px solid rgba(17, 17, 17, 0);
+  color: #777;
+}
+
+.btn-text:visited, .btn-text-light:visited {
+  color: #777;
+  background: none;
+}
+
+.btn-text:visited:hover, .btn-text-light:visited:hover {
+  color: #111;
+  background: none;
+  border: 2px solid #111111;
+}
+
+.btn-text:hover, .btn-text-light:hover {
+  color: #111;
+  background: none;
+  border: 2px solid #111111;
+}
+
+.btn-text:focus, .btn-text-light:focus {
+  color: #111;
+  outline: none;
+  text-decoration: none;
+}
+
+/* ---- 2.5 Button Sizes ---- */
+.btn-large {
+  padding: 10px 54px;
+  font-size: 1.1em;
+  letter-spacing: 3px;
+}
+
+.btn-small {
+  padding: 6px 33px;
+  font-size: 0.75em;
+}
+
+/* ---- 2.6 Light Buttons ---- */
+.btn-light {
+  color: #111;
+  background: #ececec;
+}
+
+.btn-light:visited {
+  color: #111;
+  background: #ececec;
+}
+
+.btn-light:visited:hover {
+  color: #111;
+  background: #bebebe;
+}
+
+.btn-light:hover {
+  color: #111;
+  background: #bebebe;
+}
+
+.btn-light:focus {
+  color: #111;
+}
+
+.btn-ghost-light {
+  z-index: 1;
+  border-color: #ececec;
+  color: #ececec;
+}
+
+.btn-ghost-light:after {
+  background: #ececec;
+}
+
+.btn-ghost-light:hover {
+  color: #111;
+}
+
+.btn-ghost-light:hover:visited {
+  color: #111;
+}
+
+.btn-ghost-light:visited {
+  color: #ececec;
+}
+
+input[class="btn-ghost-light"] {
+  z-index: 1;
+}
+
+input[class="btn-ghost-light"]:hover {
+  z-index: 1;
+  color: #111;
+  background: #ececec;
+}
+
+.btn-text-light {
+  border: 2px solid rgba(235, 235, 235, 0);
+}
+
+.btn-text-light:visited:hover {
+  color: #ececec;
+  border: 2px solid #ebebeb;
+}
+
+.btn-text-light:hover {
+  color: #ececec;
+  border: 2px solid #ebebeb;
+}
+
+.btn-text-light:focus {
+  color: #ececec;
+}
+
+
+/* --------------------------------------------------
+	8.0 Navigation
+-------------------------------------------------- */
+.navbar {
+  margin-bottom: 0;
+  min-height: 75px;
+  border-bottom: 1px solid #ececec;
+  border-radius: 0;
+  background: #fff;
+}
+
+.navbar .navbar-header {
+  width: 27%;
+  margin-top: 6px;
+}
+
+.navbar .navbar-header .navbar-brand {
+  padding: 15px 0;
+  margin-left: 0;
+  color: #111;
+}
+
+.navbar .navbar-nav {
+  margin-top: 12px;
+}
+
+.navbar .navbar-nav li a {
+  text-transform: uppercase;
+  font-size: 0.8em;
+  font-weight: 400;
+  letter-spacing: 2px;
+  color: #111;
+  -webkit-transition: color 0.5s;
+          transition: color 0.5s;
+}
+
+.navbar .navbar-nav li a:focus {
+  color: #0e0;
+}
+
+.navbar .navbar-nav li a:hover {
+  background: none;
+  color: #0e0;
+}
+
+.navbar .navbar-nav li a i[class*="linea-"] {
+  font-size: 18px;
+  vertical-align: sub;
+}
+
+.navbar .navbar-nav .active a {
+  background: none;
+  color: #0e0;
+  -webkit-transition: color 0.5s;
+          transition: color 0.5s;
+}
+
+.navbar .navbar-nav .active a:hover,
+.navbar .navbar-nav .active a:focus,
+.navbar .navbar-nav .active a:visited {
+  background: none;
+}
+/*
+.navbar .navbar-nav .dropdown .dropdown-toggle {
+  background: none;
+}
+
+.navbar .navbar-nav .dropdown .dropdown-toggle:hover,
+.navbar .navbar-nav .dropdown .dropdown-toggle:focus,
+.navbar .navbar-nav .dropdown .dropdown-toggle:visited {
+  background: none;
+}
+
+.navbar .navbar-nav .dropdown .dropdown-toggle .fa-shopping-cart {
+  margin-left: 16px;
+}
+
+.navbar .navbar-nav .dropdown .dropdown-menu {
+  margin-top: 12px;
+  padding: 20px 0 10px 0;
+  border: 1px solid #ececec;
+  border-radius: 0;
+  box-shadow: none;
+  background: rgba(255, 255, 255, 0.93);
+}
+
+.navbar .navbar-nav .dropdown .dropdown-menu li {
+  min-width: 150px;
+}
+
+.navbar .navbar-nav .dropdown .dropdown-menu li a {
+  display: block;
+  padding: 11px 40px 11px 25px;
+  letter-spacing: 0.5px;
+  line-height: 0.8em;
+  border-left: 3px solid rgba(17, 17, 17, 0);
+  -webkit-transition: all 0.3s;
+          transition: all 0.3s;
+}
+
+.navbar .navbar-nav .dropdown .dropdown-menu li a:hover {
+  padding-left: 35px;
+  padding-right: 30px;
+  background: rgba(17, 17, 17, 0.05);
+  border-left: 3px solid #111;
+}
+
+.navbar .navbar-nav .dropdown .dropdown-menu li a i {
+  padding-right: 5px;
+}
+
+.navbar .navbar-nav .dropdown .dropdown-menu .dropdown-header {
+  padding: 0 25px;
+  font-family: "Montserrat", "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 0.8em;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #111;
+}
+
+.navbar .navbar-nav .dropdown .dropdown-menu .divider {
+  margin-left: 25px;
+  margin-right: 25px;
+  background-color: #ddd;
+}
+.navbar .navbar-nav .dropdown .bg-solid {
+  background: #fff;
+}
+
+.navbar .navbar-nav .dropdown .search-dropdown {
+  padding-top: 10px;
+}
+
+.navbar .navbar-nav .dropdown .search-dropdown li {
+  padding: 0 15px;
+}
+
+.navbar .navbar-nav .dropdown .search-dropdown li form input[type="search"] {
+  border-radius: 0;
+  font-size: .9em;
+  letter-spacing: 1.5px;
+}
+
+.navbar .navbar-nav .dropdown .search-dropdown li form input[type="search"]:focus {
+  outline: none;
+  box-shadow: none;
+  border-color: #111;
+}
+
+.navbar .navbar-nav .dropdown .cart-dropdown {
+  width: 290px;
+  background: #fff;
+}
+
+.navbar .navbar-nav .dropdown .cart-dropdown .cart-sep-top {
+  margin-bottom: 15px;
+}
+
+.navbar .navbar-nav .dropdown .cart-dropdown .cart-sep-bot {
+  margin-top: 0;
+}
+
+.navbar .navbar-nav .dropdown .cart-dropdown .cart-item {
+  padding: 0 25px 15px 25px;
+}
+
+.navbar .navbar-nav .dropdown .cart-dropdown .cart-item a {
+  padding: 0;
+  border: none;
+  background: none;
+  text-transform: none;
+  font-size: 14px;
+  letter-spacing: .5px;
+  line-height: inherit;
+}
+
+.navbar .navbar-nav .dropdown .cart-dropdown .cart-item a:hover {
+  padding: 0;
+  border: none;
+  background: none;
+}
+
+.navbar .navbar-nav .dropdown .cart-dropdown .cart-item .p-thumb {
+  float: left;
+  margin-right: 15px;
+}
+
+.navbar .navbar-nav .dropdown .cart-dropdown .cart-item p {
+  line-height: 14px;
+}
+
+.navbar .navbar-nav .dropdown .cart-dropdown .cart-item .cp-name {
+  font-size: 14px;
+  font-weight: 300;
+  padding: 0;
+  letter-spacing: 1px;
+}
+
+.navbar .navbar-nav .dropdown .cart-dropdown .cart-item .cp-name:hover {
+  padding: 0;
+}
+
+.navbar .navbar-nav .dropdown .cart-dropdown .cart-item .cp-price {
+  font-size: 12px;
+  letter-spacing: 1px;
+  color: #999;
+}
+
+.navbar .navbar-nav .dropdown .cart-dropdown .cart-item .cart-remove-btn {
+  padding: 0;
+  float: right;
+  font-size: 16px;
+  color: #777;
+  border: none;
+  background: none;
+}
+
+.navbar .navbar-nav .dropdown .cart-dropdown .cart-item .cart-remove-btn:hover {
+  color: #111;
+  border: none;
+  background: none;
+}
+
+.navbar .navbar-nav .dropdown .cart-dropdown .cart-item .cart-remove-btn:focus {
+  text-decoration: none;
+}
+
+.navbar .navbar-nav .dropdown .cart-dropdown .item-totals {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.navbar .navbar-nav .dropdown .cart-dropdown .item-totals span {
+  float: right;
+  font-family: "Open Sans", "Montserrat", "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: 400;
+  color: #777;
+}
+
+.navbar .navbar-nav .dropdown .cart-dropdown .cart-btns {
+  padding: 30px 25px 10px 25px;
+}
+
+.navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn, .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-ghost-light, .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-text, .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-text-light, .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-ghost, .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-light {
+  position: relative;
+  display: inline-block;
+  padding: 8px 38px;
+  background: #111;
+  color: #ececec;
+  font-family: "Montserrat", "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-size: 0.9em;
+  line-height: 1.8em;
+  border-radius: 0;
+  -webkit-transition: all 0.5s;
+          transition: all 0.5s;
+}
+
+.navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn:visited, .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-ghost-light:visited, .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-text:visited, .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-text-light:visited, .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-ghost:visited, .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-light:visited {
+  color: #ececec;
+  background: #111;
+}
+
+.navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn:visited:hover, .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-ghost-light:visited:hover, .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-text:visited:hover, .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-text-light:visited:hover, .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-ghost:visited:hover, .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-light:visited:hover {
+  color: #ececec;
+  background: #3f3f3f;
+}
+
+.navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn:hover, .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-ghost-light:hover, .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-text:hover, .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-text-light:hover, .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-ghost:hover, .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-light:hover {
+  color: #ececec;
+  background: #3f3f3f;
+  border-color: #3f3f3f;
+}
+
+.navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn:focus, .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-ghost-light:focus, .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-text:focus, .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-text-light:focus, .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-ghost:focus, .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-light:focus {
+  color: #ececec;
+  outline: none;
+}
+
+.navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-ghost, .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-ghost-light {
+  background: none;
+  color: #111;
+  border: 2px solid #111;
+  text-align: center;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-ghost:after, .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-ghost-light:after {
+  content: '';
+  position: absolute;
+  background: #111;
+  left: 0;
+  top: 100%;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: top 0.3s;
+          transition: top 0.3s;
+  z-index: -1;
+}
+
+.navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-ghost:visited,
+.navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-ghost-light:visited, .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-ghost:focus, .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-ghost-light:focus {
+  color: #111;
+  text-decoration: none;
+}
+
+.navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-ghost:hover, .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-ghost-light:hover {
+  color: #ececec;
+  background: none;
+}
+
+.navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-ghost:hover:visited, .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-ghost-light:hover:visited {
+  color: #ececec;
+  text-decoration: none;
+}
+
+.navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-ghost:hover:after, .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-ghost-light:hover:after {
+  top: 0;
+}
+
+.navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-light {
+  color: #111;
+  background: #ececec;
+}
+
+.navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-light:visited {
+  color: #111;
+  background: #ececec;
+}
+
+.navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-light:visited:hover {
+  color: #111;
+  background: #bebebe;
+}
+
+.navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-light:hover {
+  color: #111;
+  background: #bebebe;
+  border-color: #bebebe;
+}
+
+.navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-light:focus {
+  color: #111;
+}
+
+.navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-ghost-light {
+  z-index: 1;
+  border-color: #ececec;
+  color: #ececec;
+}
+
+.navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-ghost-light:after {
+  background: #ececec;
+}
+
+.navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-ghost-light:hover {
+  color: #111;
+  border-color: #ececec;
+}
+
+.navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-ghost-light:hover:visited {
+  color: #111;
+}
+
+.navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-ghost-light:visited {
+  color: #ececec;
+}
+
+.navbar .navbar-nav .dropdown .dropdown-banner {
+  margin-left: -13px;
+}
+
+*/
+/* ---- Navbar Inverse (Dark) ---- */
+.navbar-inverse {
+  border-bottom: 1px solid #222;
+  background: #111;
+}
+
+.navbar-inverse .navbar-nav li a {
+  color: #777;
+}
+
+.navbar-inverse .navbar-nav li a:hover {
+  color: #ececec;
+}
+
+.navbar-inverse .navbar-nav .active a {
+  color: #ececec;
+}
+
+.navbar-inverse .navbar-nav .dropdown .dropdown-menu {
+  background: rgba(17, 17, 17, 0.95);
+  border-color: #222;
+}
+
+.navbar-inverse .navbar-nav .dropdown .dropdown-menu li a:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-left: 3px solid #ececec;
+}
+
+.navbar-inverse .navbar-nav .dropdown .dropdown-menu .dropdown-header {
+  color: #ececec;
+}
+
+.navbar-inverse .navbar-nav .dropdown .dropdown-menu .divider {
+  background-color: #444;
+}
+
+.navbar-inverse .navbar-nav .dropdown .dropdown-menu .bg-solid {
+  background: #111;
+}
+
+.navbar-inverse .navbar-nav .dropdown .cart-dropdown .cart-item .cart-remove-btn:hover {
+  color: #ececec;
+}
+
+.navbar-inverse .navbar-nav .dropdown .cart-dropdown .item-totals {
+  color: #ececec;
+}
+
+.navbar-inverse .navbar-nav .dropdown .search-dropdown li form input[type="search"]:focus {
+  border-color: #ececec;
+}
+
+/* ---- Mega Menu ---- */
+.mega .nav,
+.mega .collapse,
+.mega .dropup,
+.mega .dropdown {
+  position: static;
+}
+
+.mega .container {
+  position: relative;
+}
+
+.mega .dropdown-menu {
+  left: auto;
+}
+
+.mega .mega-content {
+  padding: 20px 30px;
+}
+
+.mega .dropdown.mega-fw .dropdown-menu {
+  left: 0;
+  right: 0;
+}
+
+/* ---- Navbar Utility ---- */
+.navbar-trans {
+  border-bottom: none;
+  background: transparent;
+  -webkit-transition: background 0.3s;
+          transition: background 0.3s;
+}
+
+.navbar-trans .navbar-logo {
+  content: url(../images/logo-light.png);
+}
+
+.navbar-trans .navbar-logo-dark {
+  content: url(../images/logo.png);
+}
+
+.navbar-trans:not(.navbar-inverse) .navbar-nav li a:focus,
+.navbar-trans:not(.navbar-inverse) .navbar-nav li a:hover {
+  color: #ececec;
+}
+
+.navbar-trans:not(.navbar-inverse) .navbar-nav .active a {
+  color: #ececec;
+}
+
+.navbar-trans:not(.navbar-inverse) .navbar-nav .active a:hover {
+  color: #ececec;
+}
+
+.navbar-trans:not(.navbar-inverse) .navbar-nav .dropdown .dropdown-menu li a:hover {
+  color: #111;
+}
+
+.navbar-trans:not(.navbar-inverse) .navbar-nav .open .dropdown-toggle {
+  color: #ececec;
+}
+
+.navbar-trans-dark .navbar-nav > li > a:focus,
+.navbar-trans-dark .navbar-nav > li > a:hover {
+  color: #111 !important;
+}
+
+.navbar-trans-dark .navbar-nav .active > a {
+  color: #111 !important;
+}
+
+.navbar-trans-dark .navbar-nav .active > a:hover {
+  color: #111 !important;
+}
+
+.navbar-trans-dark .navbar-nav .open .dropdown-toggle {
+  color: #111 !important;
+}
+
+.navbar-small {
+  min-height: 50px;
+}
+
+.navbar-small .navbar-header {
+  margin-top: 0;
+  padding: 0;
+}
+
+.navbar-small .navbar-header .navbar-brand {
+  padding: 9px 0;
+}
+
+.navbar-small .navbar-nav {
+  margin-top: 0;
+}
+
+.navbar-small .navbar-nav .dropdown .dropdown-menu {
+  margin-top: 0;
+}
+
+.navbar-fw .navbar-header {
+  margin-left: 50px;
+  width: 25%;
+}
+
+.navbar-fw .navbar-right {
+  margin-right: 50px;
+}
+
+/* ---- Navbar Utility ---- */
+.bg-solid-white {
+  background: #fff !important;
+}
+
+.bg-solid-dark {
+  background: #111;
+}

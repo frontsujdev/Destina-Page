@@ -1,0 +1,25 @@
+body {
+    min-height: 100vh;
+    background-color: #222;
+}
+.letter-container {
+    background-color: #222;
+    color: #999;
+    text-align: center;
+    padding: 30px;
+}
+.letter-container h2 {
+    margin-bottom: 30px;
+    color: white;
+    font-weight: 200;
+    font-size: 30px;
+}
+.letter-container img {
+    margin-bottom: 20px;
+}
+.letter-container h6 {
+    margin-bottom: 20px;
+}
+.letter-container .letter-description {
+    margin-bottom: 40px;
+}
